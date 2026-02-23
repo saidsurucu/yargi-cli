@@ -1,15 +1,38 @@
 {
-  "name": "yargi",
+  "name": "@saidsrc/yargi",
   "version": "0.1.0",
-  "description": "CLI tool for Turkish legal databases",
+  "description": "CLI tool for Turkish legal databases. Designed for AI agents and programmatic use.",
   "type": "module",
   "bin": {
     "yargi": "./bin/yargi.js"
   },
+  "files": [
+    "bin/",
+    "dist/",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "turkish-law",
+    "legal",
+    "yargitay",
+    "danistay",
+    "bedesten",
+    "court-decisions",
+    "cli",
+    "ai-agent"
+  ],
+  "author": "Said Surucu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saidsurucu/yargi-cli.git"
+  },
+  "homepage": "https://github.com/saidsurucu/yargi-cli",
   "dependencies": {
     "commander": "^13.0.0",
     "turndown": "^7.2.0"
