@@ -1,0 +1,26 @@
+{
+  "name": "yargi",
+  "version": "0.1.0",
+  "description": "CLI tool for Turkish legal databases",
+  "type": "module",
+  "bin": {
+    "yargi": "./bin/yargi.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "@types/turndown": "^5.0.5",
+    "tsx": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
