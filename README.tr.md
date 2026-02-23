@@ -32,8 +32,8 @@ Daire filtreleme, tüm Yargıtay/Danıştay birimlerini kapsayan 79 kodu destekl
 ## Kurulum
 
 ```bash
-# Node.js >= 18 gerektirir
-npm install -g yargi
+# Node.js >= 24 gerektirir
+npm install -g @saidsrc/yargi
 ```
 
 Veya kaynak koddan çalıştırma:

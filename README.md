@@ -32,8 +32,8 @@ Chamber filtering supports 79 codes covering all Yargıtay/Danıştay divisions.
 ## Installation
 
 ```bash
-# Requires Node.js >= 18
-npm install -g yargi
+# Requires Node.js >= 24
+npm install -g @saidsrc/yargi
 ```
 
 Or run from source:
